@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mongodb:stitch-android-services-mongodb-remote:4.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stitch-android-services-mongodb-remote-4.1.4.aar/e81507af044a292ed5618c7983c004e7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stitch-android-services-mongodb-remote-4.1.4.aar/e81507af044a292ed5618c7983c004e7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/stitch-android-services-mongodb-remote/4.1.4/2261364c9ca5dfe1f4fb963ed4cb180def233e99/stitch-android-services-mongodb-remote-4.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

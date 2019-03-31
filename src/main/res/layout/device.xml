@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <com.myproject.dummy.CheckableRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/devname"
+                android:layout_width="176dp"
+                android:layout_height="44dp"
+                android:layout_above="@+id/devid"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="13dp"
+                android:background="@android:color/white"
+                android:fontFamily="@font/baloo"
+                android:paddingLeft="10px"
+                android:paddingTop="10px"
+                android:paddingBottom="10px"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/devid"
+                android:layout_width="178dp"
+                android:layout_height="51dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="18dp"
+                android:background="@android:color/white"
+                android:fontFamily="@font/baloo"
+                android:paddingLeft="10px"
+                android:paddingTop="10px"
+                android:paddingBottom="10px"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="6dp"
+                android:checkMark="?android:attr/textCheckMark"
+                android:checked="true"
+                android:text="tick" />
+
+            <CheckBox
+                android:id="@+id/Switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="61dp"
+                android:text="CheckBox" />
+
+        </com.myproject.dummy.CheckableRelativeLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
+
+<!--
+
+<ToggleButton
+                android:id="@+id/Switch"
+                android:layout_width="163dp"
+                android:layout_height="105dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@+id/devname"
+                android:background="@drawable/togglebuttonselector"
+                android:textColor="@android:color/white"
+                android:textOff="OFF"
+                android:textOn="ON"
+                android:textSize="24sp" />
+-->

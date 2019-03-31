@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginTop="0.2in"
+        android:layout_marginRight="0.2in"
+        android:layout_marginBottom="1.5in"
+        android:text="Embryo Logo Here"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginRight="0.25in"
+        android:layout_marginBottom="0.2in"
+        android:text="Already a member? Sign in!" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginRight="0.25in"
+        android:layout_marginBottom="0.25in"
+        android:text="Not a member? sign-up!" />
+
+</LinearLayout>

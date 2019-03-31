@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dummy</string>
+    <string name="facebook_app_id">1982982841996923</string>
+    <string name="fb_login_protocol_scheme">fb1982982841996923</string>
+    <string name="stitch_client_app_id">embryophase1-ddbqy</string>
+    <string name="google_client_id">169418337095-hb4evpde2n08sefb8iiou2nu3osgb8n5.apps.googleusercontent.com</string>
+    <string name="com_facebook_loginview_log_out_button">Log in with Facebook</string>
+    <string name="colorPositive">#0cd458</string>
+    <string name="colorNegative">#e12210</string>
+    <string name="signup_page_message_line1">Lets get started!</string>
+    <string name="signup_page_message_line2">Enter the kit code provided by us.</string>
+    <string name="hint_text_signup_page">Enter the 16-digit Alpha-Numeric Key</string>
+    <string name="signup_page_error_msg">Sorry. The key is not valid.</string>
+    <string name="mqtt_client_id">52f7a4b9b98b42ad84e459b6e41bec40</string>
+    <string name="mqtt_broker">tcp://io.adafruit.com:1883</string>
+    <string name="mqtt_topic">jeevantshash/feeds/welcome-feed</string>
+    <string name="mqtt_username">jeevantshash</string>
+    <!--<string name="mqtt_password">9BRkrB4zhHFRTKh</string>-->
+    <string name="mqtt_password">52f7a4b9b98b42ad84e459b6e41bec40</string>
+</resources>

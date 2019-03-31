@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/phonehead"
+        android:layout_width="242dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginTop="0.5in"
+        android:layout_marginRight="0.25in"
+        android:text="Phone Number"
+        android:textSize="28sp"
+        app:fontFamily="@font/baloo" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginTop="0.05in"
+        android:layout_marginRight="0.25in"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/passwordhead"
+        android:layout_width="242dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginTop="0.05in"
+        android:layout_marginRight="0.25in"
+        android:layout_marginBottom="0.05in"
+        android:text="Password"
+        android:textSize="28dp"
+        app:fontFamily="@font/baloo" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginRight="0.25in"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signinbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginTop="0.1in"
+        android:layout_marginRight="0.25in"
+        android:layout_marginBottom="0.1in"
+        android:background="@color/colorPrimary"
+        android:text="Sign-In"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="------------ OR ------------" />
+
+    <Button
+        android:id="@+id/google_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginTop="0.1in"
+        android:layout_marginRight="0.25in"
+        android:layout_marginBottom="0.1in"
+        android:text="Sign In with Google" />
+
+    <Button
+        android:id="@+id/facebook_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.25in"
+        android:layout_marginTop="0.1in"
+        android:layout_marginRight="0.25in"
+        android:layout_marginBottom="0.1in"
+        android:background="@drawable/com_facebook_button_icon_blue"
+        android:backgroundTint="@color/com_facebook_blue"
+        android:text="Sign In With Facebook"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
